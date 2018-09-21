@@ -1,0 +1,159 @@
+/* 共通の設定 *****************************/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #222;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: orange;
+}
+
+
+table {
+    width: 100%;
+    margin: 0.6em 0 0 0;
+    border-collapse: collapse;
+}
+
+table th,td {
+    border: 1px solid #333;
+    overflow: auto;
+}
+
+
+
+
+
+/* ヘッダー ******************************/
+h1 {
+    font-size: 1.5em
+}
+
+/* main ******************************/
+
+main {
+    height: auto;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    font-size: 0.8em;
+    display: block;
+    overflow: auto;
+}
+
+div {
+    text-align: right;
+}
+
+label {
+    /*text-align: left;*/
+    float: left;
+}
+
+input,
+select {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input{
+    text-align: right;
+}
+
+select{
+    text-align: left;
+}
+
+section {
+    /*background-color: darkslategray;*/
+    padding: 5px 5px 5px 5px;
+}
+
+.input {
+    width: 350px;
+    margin: auto;
+    float: left;
+}
+/* アウトプットテーブル */
+.ranking {
+    margin: 0.8em 0.3em 0 0;
+    width: 350px;
+    float: left;
+}
+
+.result {
+    margin: 0.8em 0.3em 0 0;
+    width: 350px;
+    float: left;
+}
+/*
+.output {
+    width: auto;
+    margin: auto;
+    float: left;
+}*/
+
+
+/* .weaponセクション ***********************************************/
+.weapon {
+    overflow: auto;
+}
+
+    /* .select_weaponセクション ************************************/
+    .select_weapon {
+        width: 50%;
+        float: left;
+    }
+
+    
+    /* .skillsセクション ***********************************************/
+    .skills {
+        padding: 0;
+        font-size: 0.9em;
+    }
+    
+        .skills section {
+            /*background-color: darkorchid;*/
+            border-top: 1px solid darkgray;
+            overflow: auto;
+        }
+
+        .skills div {
+            width: 48%;
+            padding: 0 0 0 5px;
+            float: left;
+        }
+        
+
+/* .resultセクションのスタイル **************************/
+
+button {
+    border-radius: 0.5em;
+    width: 10em;
+    height: 2em;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.result td {
+    text-align: left;
+}
+
+footer {
+    font-size: 0.8em;
+    margin: auto;
+}
